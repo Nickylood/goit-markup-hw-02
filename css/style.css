@@ -6,6 +6,7 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     --text-color: #757575;
+    --portfolo-main-color: #F5F5F5;
     --before-color: #FFFFFF;
     --btn-color: orange;
     --services-color: #F5F4FA;
@@ -18,7 +19,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F5F5F5;
+    background-color: var(--portfolo-main-color);
 }
 /* logo */
 .logo {
@@ -85,6 +86,9 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.hero {
+    background-color: var(--portfolo-main-color);
 }
 .hero-title-btn {
     background: var(--h1-color);
